@@ -1,10 +1,20 @@
-def parrot_trouble(bol,t):
-        if t<7:
+bol=bool(input("Enter bool:"))
+hour=int(input("Enter current time:"))
+
+def parrot_trouble(bol,hour):
+    if bol==True:
+        if hour>=6 or hour>=19:
             return True
-        elif t>20:
-            return True
-        else:
+    elif bol==True:
+        if hour<=6 or hour<19:
             return False
-bol=bool(input("Enter boolen:"))
-t=int(input("Enter time in hours:"))
-print(parrot_trouble(bol,t))
+    elif bol==False:
+        if hour<0 and hour>0:
+            return False
+
+
+
+
+print(parrot_trouble(bol,hour))
+
+

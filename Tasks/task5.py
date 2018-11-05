@@ -1,4 +1,4 @@
-name=input("enter customer name:")
+`name=input("enter customer name:")
 slab=input("enter customer slab:")
 a="i"
 b="c"
