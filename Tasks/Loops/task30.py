@@ -1,11 +1,16 @@
-fourdigit=int(input("enter any four digit number"))
+l1=[9,10,45,8]
 sum=0
-for x in fourdigit:
-    if x>0:
-        dig=fourdigit/10
-        sum=sum+dig
-        fourdigit=fourdigit//10
- print("sum four digits=",dig)
+n=4
+for x in range(4):
+    if x<n:
+        digt=l1[x]
+        sum+=digt
+print("the sum of four digit number=",sum)
+
+
+
+
+
 
 
 
